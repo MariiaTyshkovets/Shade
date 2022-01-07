@@ -1,0 +1,83 @@
+:root {
+    --heading-1-size: 60px;
+    --heading-2-size: 48px;
+    --heading-3-size: 36px;
+    --heading-4-size: 30px;
+    --heading-5-size: 24px;
+    --heading-6-size: 16px;
+
+    --heading-1-line-height: 72px;
+    --heading-2-line-height: 56px;
+    --heading-3-line-height: 44px;
+    --heading-4-line-height: 40px;
+    --heading-5-line-height: 36px;
+    --heading-6-line-height: 22px;
+
+    --body-primary-size: 20px;
+    --body-secondary-size: 18px;
+    --body-3-size: 16px;
+    --body-small-size: 14px;
+    --body-additional-size: 21px;
+
+    --body-primary-line-height: 30px;
+    --body-secondary-line-height: 28px;
+    --body-3-line-height: 24px;
+    --body-small-line-height: 21px; 
+    --body-additional-line-height: 22px;
+
+    --label-button-1-size: 16px;
+    --label-button-2-size: 12px;
+
+    --label-button-1-line-height: 19px;
+    --label-button-2-line-height: 12px;
+
+    --caption-size: 12px;
+    --caption-line-height: 15px;
+
+    --primary-color: #000000;
+    --primary-color-1: #4F4F4F;
+    --primary-color-2: #828282;
+
+    --secondary-color: #ffffff;
+}
+
+$headline-1-size: var(--heading-1-size, 60px);
+$headline-2-size: var(--heading-2-size, 48px);
+$headline-3-size: var(--heading-3-size, 36px);
+$headline-4-size: var(--heading-4-size, 30px);
+$headline-5-size: var(--heading-5-size, 24px);
+$headline-6-size: var(--heading-6-size, 16px);
+
+$headline-1-line-height: var(--heading-1-line-height, 72px);
+$headline-2-line-height: var(--heading-2-line-height, 56px);
+$headline-3-line-height: var(--heading-3-line-height, 44px);
+$headline-4-line-height: var(--heading-4-line-height, 40px);
+$headline-5-line-height: var(--heading-5-line-height, 36px);
+$headline-6-line-height: var(--heading-6-line-height, 22px);
+
+$body-primary-size: var(--body-primary-size, 20px);
+$body-secondary-size: var(--body-secondary-size, 18px);
+$body-3-size: var(--body-3-size, 16px);
+$body-small-size: var(--body-small-size, 14px);
+$body-additional-size: var(--body-additional-size, 21px);
+
+$body-primary-line-height: var(--body-primary-line-height, 20px);
+$body-secondary-line-height: var(--body-secondary-line-height, 18px);
+$body-3-line-height: var(--body-3-line-height, 16px);
+$body-small-line-height: var(--body-small-line-height, 14px);
+$body-additional-line-height: var(--body-additional-line-height, 22px);
+
+$label-button-1-size: var(--label-button-1-size, 16px);
+$label-button-2-size: var(--label-button-2-size, 12px);
+
+$label-button-1-line-height: var(--label-button-1-line-height, 19px);
+$label-button-2-line-height: var(--label-button-2-line-height, 12px);
+
+$caption-size: var(--caption-size, 12px);
+$caption-line-height: var(--caption-line-height, 15px);
+
+$primary-color: var(--primary-color, #000000);
+$primary-color-1: var(--primary-color-1, #4F4F4F);
+$primary-color-2: var(--primary-color-2, #828282);
+
+$secondary-color: var(--secondary-color, #ffffff);

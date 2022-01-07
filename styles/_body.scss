@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: $body-primary-size;
+    font-weight: 400;
+    line-height: $body-primary-line-height;
+    color: $primary-color;
+}
+
+.wrapper {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: $headline-1-size;
+    font-weight: 700;
+    line-height: $headline-1-line-height;
+}
+
+h2 {
+    font-size: $headline-2-size;
+    font-weight: 700;
+    line-height: $headline-2-line-height;
+}
+
+h3 {
+    font-size: $headline-3-size;
+    font-weight: 700;
+    line-height: $headline-3-line-height;
+}
+
+h4 {
+    font-size: $headline-4-size;
+    font-weight: 600;
+    line-height: $headline-4-line-height;
+}
+
+h5 {
+    font-size: $headline-5-size;
+    font-weight: 600;
+    line-height: $headline-5-line-height;
+}
+
+h6 {
+    font-size: $headline-6-size;
+    font-weight: 600;
+    line-height: $headline-6-line-height;
+}
