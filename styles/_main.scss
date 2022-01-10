@@ -1,0 +1,133 @@
+.main__banner {
+    padding: 130px 0px;
+
+    h2 {
+        margin-bottom: 14px;
+        color: $primary-color-2;
+    }
+
+    h1 {
+        margin-bottom: 400px;
+    }
+}
+
+.background-image-top {
+    width: 750px;
+    position: absolute;
+    top: 260px;
+    right: 0px;
+    z-index: -1;
+}
+
+.background-image-bottom {
+    width: 750px;
+    position: absolute;
+    top: 941px;
+    right: 0px;
+    z-index: -1;
+}
+
+.increasing {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    @include block;
+}
+
+.increasing__items {
+    display: grid;
+    gap: 48px;
+    grid-template-columns: max-content max-content;
+}
+
+.main__features {
+    padding: 184px 0px 250px;
+
+    h1 {
+        margin-bottom: 180px;
+    }
+}
+
+.features {
+    display: grid;
+    gap: 48px;
+    row-gap: 182px;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    text-align: center;
+    @include block;
+    
+    p {
+        margin-bottom: 8px;
+    }
+}
+
+.about-us {
+    padding: 200px 100px 270px 450px;
+    position: relative;
+}
+
+.about-us__image {
+    position: absolute;
+    left: -12.5vw;
+    top: 0px;
+    z-index: -1;
+}
+
+.about-us__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-bottom: 105px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+}
+
+.contacts {
+    position: relative;
+    padding: 123px 400px 113px 0px;
+}
+
+.contacts__image {
+    position: absolute;
+    z-index: -1;
+    top: 62px;
+    right: -12.5vw;
+}
+
+.contacts__article {
+    text-align: center;
+    
+    h1 {
+        margin-bottom: 136px;
+    }
+}
+
+.contacts__data {
+    border-radius: 30px;
+    background-color: #FFFCFC;
+    border: rgba(0, 0, 0, 0.25) 1px solid;
+    padding: 80px 102px;
+    @include shadow;
+    display: grid;
+    grid-template-columns: 130px 250px;
+    row-gap: 115px;
+    justify-content: space-between;
+
+    input {
+        outline: none;
+        border: 0;
+    }
+
+    label {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 22px;
+    }  
+}

@@ -1,0 +1,33 @@
+@mixin black-btn {
+    font-size: $label-button-1-size;
+    line-height: $label-button-1-line-height;
+    padding: 10.5px 16px;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 5px;
+}
+
+@mixin block {
+
+    svg {
+        margin-bottom: 13px;
+    } 
+
+    p {
+        margin-bottom: 14px;
+        font-size: $body-additional-size;
+        line-height: $body-additional-line-height;
+        font-weight: 600;
+    }
+
+    small {
+        font-weight: 400;
+        font-size: $body-3-size;
+        line-height: $body-3-line-height;
+        color: $primary-color-1;
+    }
+}
+
+@mixin shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 10px 4px;    
+}
